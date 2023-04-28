@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:wght@100&display=swap');
+
+
+*{    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-image: url(152144-large-tumblr-theme-backgrounds-1920x1226-for-hd.jpg);;
+    width:200px;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+.main{
+    background-image: url(5651990.webp);
+    width: 90vw;
+    padding: 50px;
+}
+.sidebar nav{
+    padding: 34px;
+   
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding-top:  10px;
+    padding-bottom:  1px;
+}
+.container{
+    display: flex;
+    
+}
+.info{
+    
+    height: 45vh;
+    width: 80vw;
+    margin:  178px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devpic img{
+    
+    height: 45vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+    font-size: 85px;
+    font-family: 'Delicious Handrawn', cursive;
+    color: aliceblue;
+
+}
+.name{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Delicious Handrawn', cursive;
+    color: aliceblue;
+}
+.about{
+font-size: 46px;
+color: aliceblue;
+}
+
+.button button{
+    padding: 11px;
+font-size: 20px;
+border-radius: 29px;
+color: aliceblue;
+background-color: rgb(16, 162, 220);
+font-weight: bold;
+margin: 0px 5px;
+cursor: pointer;
+}
+.button button:hover{
+    background-color: rgb(246, 248, 249);
+    color:  rgb(0, 10, 4);
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(253, 253, 253);
+
+}
+.contactform{
+    font-family: 'Roboto', sans-serif;
+    padding:  0px 196px;
+
+}
+.contactform h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.contactform  form div{
+    padding: 11px 0px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    border-radius: 100px;
+    margin : 0px;
+    padding: 3px;
+}
+
+
+#emailHelp{
+    font-size: 20px;
+    color: rgb(253, 8, 8);
+    
+}
+@media (max-width:1000px ){
+    
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+}
+.virasith img{
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 335px;
+
+}
+.main p{
+    margin-left:  111px;
+    margin-top: -34px;
+    font-size: 28px;
+    color: aliceblue;
+}
+.phone p{
+    margin-left:  273px;
+    margin-top: -32px;
+    font-size: 28px;
+    color: aliceblue;
+}
+.mail p{
+    margin-left:  120px;
+    margin-top: -32px;
+    font-size: 28px;
+    color: aliceblue;
+}  
+.mai p{
+    background-image: url(bfjs.jpeg);
+    margin-left:  91px;
+    margin-top: -32px;
+    font-size: 28px;
+    color: aliceblue;
+}
+.cls p{
+    margin-left:  111px;
+    margin-top: -32px;
+    font-size: 28px;
+    color: aliceblue;
+}
+.clg p{
+    margin-left:  398px;
+    margin-top: -32px;
+    font-size: 28px;
+    color: aliceblue;
+}  
